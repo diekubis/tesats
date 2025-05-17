@@ -1,0 +1,11 @@
+{
+  "framework": "create-react-app",
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "web-build",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
